@@ -1,0 +1,12 @@
+  Comfortably Uncomfortable - Week 2
+  
+  
+  Developers create an ecosystem for the user to experience. Whether it's a simple interface or a complicated series of inputs and reponses that the user interacts with, the developer has to consider all the possibilities that one might encounter and build code to handle this ecosystem. In essence, it's like trying a video game and getting your character into every level of the game with every outcome of that level. You have to think about it a lot!!
+  
+  
+  Sometimes you, as a developer, need to consider an outcome in your app where there are 2 logical choices to be made from the user, but only one makes the app function the way you intend for it.  Those choices can be difficult, but you need to determine what is going to be the best case for the app as a whole and design an outcome that the user accepts if he isn't allowed to made a choice he wants to make. You need to "steer" the user along a path that keeps them engaged with what they are using or accomplish the objective they are trying to achieve without distracting them by some "bug" or "quirk" in the user experience.  This requires creative thought about steering them back to a path if they encounter one of these edge cases. (And, you need to figure out all of the edge cases before the user even opens your app!!)
+  
+  
+  -Now for some discussion about GitHub....
+  
+  Branching allows a developer or team members of a project to take the existing project and copy it over to their work station and start to develop a new feature without disturbing the base level project.  The base level project, or master branch, is the accepted agreed upon version that everyone is referring to as they work on emplementing their new feature.  I think of it as a tuning fork that is the refernce a piano tuner uses to work from when he starts work on tuning any piano he comes across.  He always has a consistent starting point. With this starting point, in theory, all the pianos he tunes will end up sounding exactly the same.  For developers, when we branch, we don't destroy any of the base projet and only bring back to the project new working features that will augment the project. When the team agrees that the new features will bring the project up to the next level desired, then, and only then will these features be pushed onto the master branch. Hence, creating a brand new base level for eveyone to work from and giving a new reference point for developers to "tune" from.
