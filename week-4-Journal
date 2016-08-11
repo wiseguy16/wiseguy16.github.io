@@ -1,0 +1,48 @@
+Journal Week 4
+
+Tutorial - Understanding Arrays and Dictionaries
+
+  In iOS and other developer disciplines, you will inevitably need to interact with arrays and dictionaries. Some languages
+  may have other terms for these 2 items, but the concepts involved are still the same.
+  
+  Arrays are ordered lists of objects. The objects inside the array can be any type of object, but nonetheless it is still
+  in a certain order. You reference the items in the list by its index. Items that are referenced by index, in the developer
+  world, are referenced by the amount of offset from the beginning of the list, or array specifically. So, the first object
+  in the array is offset by nothing, since it is the first object. That in turn means that it is at index zero since it is
+  not offset at all, hence it is the very first object. The next item in the array is offset from the beginning of the list
+  by 1, so it has an index of 1. Keep in mind we are talking about the second item in the array, but still it has an index of 
+  1 because we only need to move over 1 spot in the list to get to this item.  If you follow the logic out further to the 3rd
+  item in the array, we need to offset here 2 spots to get to this item, so it has an index of 2. Think of the array literally
+  like the following list: Item1, Item2, Item3, Item4.  If you look at Item1, you dont need to skip over anything here to
+  get to it. It is the very first word in the list. Since you don't need to skip over anything, or offset it by anything,
+  you can refer to it by index 0. Item4 is this list has 3 items before it, so it needs to skip over, or offset, 3 times to
+  reference its spot. So, we can conclude that Item4 requires 3 offsets to reference its spot so its index is 3.
+  
+  Dictionaries are similar to arrays in that they are a list of objects, but in their case, they are not ordered at all.
+  The objects in a dictionary are referred to as key/value pairs. So each oject has 2 parts, a key and a value for the key.
+  Additionally, the value in this case can be any object, even another dictionary. The key however has to be a unique
+  identifier. You cannot have 2 identical keys in the same dictionary. So if one entry in the dictionary was something
+  like- name:Tom , you would not be able to have another entry in the dictionary like- name:Jane . You would need for one of
+  the keys here to be different. In this example, the key we are using is "name", so it can be used in only one spot. One 
+  of these keys could be replaced by something like "firstName" and then it will now be considered a unique key. So, our 
+  dictionary could have the following entries- firstName:Tom , name:Jane . The 2 values here are "Tom" and "Jane" respectively
+  for the keys "firstName" and "name". As long as the keys in a dictionary are unique, the value that it pairs with can be
+  found. Since all the keys in the dictionary are unique, it does not require the list to be ordered at all and items 
+  cannot be referenced by an index like we saw in arrays. The only reference path to the value object is by it very own 
+  unique key.
+  
+  These two different ways of listing objects make storing data versatile for developers. Sometimes complex data may be 
+  structured by an array of dictionaries. Other times data may have keys with array as their value. Their is usually
+  a curly brace or square bracket to denote the beginning and ending of an array or dictionary depending on which language
+  you are using. This helps to identify when one list starts and stops. Sometimes the list can be very long, so finding
+  the beginning and end can be critical.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
