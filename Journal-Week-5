@@ -1,0 +1,20 @@
+
+Journal- Week 5
+
+The past week has been challenging.  We covered some heavy topics and didn't seem to stop to catch our breath.  Such topics 
+as MapKit, CoreLocation Manager, NSCoding, not to mention starting a brand new coding language Swift. Not just the regular 
+Swift version 2, but we jumped into full blown Swift 3 beta!  I've had some previous experience with Swift and the syntax
+was familiar, but we decided to make the plunge to Swift 3 because it will make us more exposed to producing apps
+that can be ran on brand new iPhone7s.  It's exciting to explore this type of bleeding edge with tech because I can gain 
+experience and implement some of the new functions and features. Hopefully this can take my apps further just by knowing more
+than the developer who is stuck in his way or unmotivated to learn the changes for the new version release. I am mostly
+excited to see how I can utilize their open sourcing of the messaging features because I feel like it could be something
+I leverage in my final project.  
+  
+    Having gone through so much material so quickly, I feel like I have a little bit of side work to do to feel comfortable 
+    with the concepts that flew past me.  I will probably make myself do some mini-apps to make sure I can replicate
+    some of the Map features as well as storing data to the system manager so that it can persist from app launch to app 
+    launch.  Users have come to expect this kind of behavior and won't want to use something if it has to reset every time
+    they use it.  Writing code is starting to feel a little more intuitive. I feel like I now know more of the concept
+    I'm trying to go for and I try to write it on my own and only look up things if it gets me stuck for more than 5 or so 
+    minutes.  Feels pretty good to make the machine do what you're thinking and getting it to do it by what you are typing!
