@@ -1,0 +1,13 @@
+Journal Week 9
+
+As our lectures are coming to an end and we begin to start our final projects, I think back over my projects from the last
+9 weeks and remember 2 moments in particular. One, was a moment where I felt like I was really able to apply the knowledge I 
+learning.  That was when we were building a calculator.  It sounds a lot easier than you may think, but thinking through the
+logic to implement what a calculator really does was quite a struggle.  You need to determine if the user is entering his first
+number, second number or operator. Then you need to apply the proper math based on what they have entered. We first did the
+assignment in Objective-c, then later we were given the same assignment to do in Swift.  I felt pretty good when I was able to
+have the display give out the correct results and perform the basic calculations when I did it in Objective-C, but it was when
+we redid the assignment in Swift that I was able to put all of the calulation functions into their own class, or what we 
+called "the brain" and have all of the business logic seperate from the controller that manages the view.  It really was a
+defining moment for me as a developer to really grab ahold of this concept!
+
