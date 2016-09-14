@@ -1,13 +1,32 @@
 Journal Week 9
 
 As our lectures are coming to an end and we begin to start our final projects, I think back over my projects from the last
-9 weeks and remember 2 moments in particular. One, was a moment where I felt like I was really able to apply the knowledge I 
-learning.  That was when we were building a calculator.  It sounds a lot easier than you may think, but thinking through the
-logic to implement what a calculator really does was quite a struggle.  You need to determine if the user is entering his first
-number, second number or operator. Then you need to apply the proper math based on what they have entered. We first did the
-assignment in Objective-c, then later we were given the same assignment to do in Swift.  I felt pretty good when I was able to
-have the display give out the correct results and perform the basic calculations when I did it in Objective-C, but it was when
-we redid the assignment in Swift that I was able to put all of the calulation functions into their own class, or what we 
-called "the brain" and have all of the business logic seperate from the controller that manages the view.  It really was a
-defining moment for me as a developer to really grab ahold of this concept!
+9 weeks and remember 2 moments in particular. 
 
+First, was a moment where I felt like I was really able to apply the knowledge I learning.  That was when we were building a 
+calculator.  It sounds a lot easier than you may think, but thinking through the logic to implement what a calculator really 
+does was quite a struggle.  You need to determine if the user is entering his first number, second number or operator. 
+Then you need to apply the proper math based on what they have entered. We first did the assignment in Objective-c, then 
+later we were given the same assignment to do in Swift.  I felt pretty good when I was able to have the display give out 
+the correct results and perform the basic calculations when I did it in Objective-C, but it was when we redid the 
+assignment in Swift that I was able to put all of the calulation functions into their own class, or what we  called 
+"the brain" and have all of the business logic seperate from the controller that manages the view.  It really was a defining 
+moment for me as a developer to really grab ahold of this concept!
+
+Second, was a moment that was really frustrating. We were to build a word search puzzle that generated a puzzle given
+certain criteria and send that data to an api that would return to us a list of letters that we would take and form into a
+puzzle grid that the user could search for hidden words.  The frustrating part for this exercise was not getting the 
+puzzle to show on the screen, but getting back the as something I could tell the system what to do with. I spent hours and 
+hours testing my data by printing to the console, but it never would quite return in the format I could use.  I could see all
+of the letters I needed to use to show on my grid and had the functions written to make the grid, but I just could not 
+figure out how to tell the system "These are the letters!!! Take them and use them please!!!!". I tried to get creative and
+make work arounds to parse the returning letters into strings I could use, but this just took a bad situation and made it
+worse!  I finally decided that the data was just not gooing to format properly and decided to at least display "a puzzle"
+even if it meant I had to "hard code" it, or manually put in the charaters to feed to my functions that display the letters.
+I really thought I was going to be able to make the leap and get it all work, but Sunday night came along and I just ran out
+of time.  It was so frustrating to feel like I had all the pieces I need but not be able to show the result that I knew
+existed.
+
+I'm sure I will encounter more of these scenarios in real world developer problems and hope my frustration does not override
+my moments of inspiration.  I want to thrive upon my successes and learn from my failures and keep that mindset through
+the next 3 weeks as I create a full working project that will hopefully be fully functional not to mention hopefully impressive!
